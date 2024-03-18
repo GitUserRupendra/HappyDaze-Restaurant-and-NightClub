@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+;
+
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+font-family: 'Bebas Neue', cursive;	
+background-image: linear-gradient(#000428,#004e92);
+
+
+}
+
+.main-nav{
+	position: relative;
+	margin-top: 40px;
+
+  right: 10px;
+
+}
+
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+   margin-left: 5px;
+	margin-right:48px;
+	}
+
+.main-nav li a{
+	padding: 5px 0;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 140%;
+	font-weight: 100;
+	display: flex;
+	font-family: 'Flamenco', cursive;
+}
+		.main-nav li a:hover{
+	border-bottom: 2px solid yellow; 
+}
+.logo{
+	text-align: center;
+	color:white;
+	font-size: 55px;
+  letter-spacing: 6px;
+}
+.col-2-3{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../img/ev.jpg');
+	background-size: cover;
+	color: yellow;
+	font-size: 35px;
+
+}
+.why-attend {
+  list-style: square;
+
+}
+
+form {
+  margin-bottom: 100px;
+}
+
+.register-group label {
+  color: #648880;
+  cursor: pointer;
+  font-weight: 400;
+}
+.register-group input,
+.register-group select,
+.register-group textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 0px;
+}
+.register-group input,
+.register-group textarea {
+  width: 100%;
+}
+.register-group select {
+  height: 34px;
+  width: 60px;
+}
+.register-group textarea {
+  height: 78px;
+}
+
+.btn{
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+	margin-top: 10px;
+}
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>Happy Daze Landing Page</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<section class="showcase">
+		<header>
+			<h2 class="name
+			" style="font-size:32px ;">Happy Daze Restaurant And Night Club</h2>
+			
+		<div class="slider">
+			
+		</div>
+		</header>
+
+		<video src = "video/v.mp4"muted loop autoplay ></video>
+		<div class="overlay"></div>
+
+		<div class="text">
+		<h2>Now It's Your Time!</h2>
+		<h3>To Make Happy Daze...</h3>
+		
+		<a href="event.html">Explore Events</a>	
+		</div>
+		<ul class="social">
+			<li> <a href="https://fb.com"><img src="img/fb1.jpg" alt="" width="50px"></a></li>
+			<li><a href="https://instagram.com"><img src="img/insta.jpg" alt="" width="50px"></a></li>
+			<li><a href="https://twitter.com"><img src="img/twitter.png" alt="" width="50px"></a></li>
+			<h4>(Designed By : Rupendra Nakarmi)</h4>
+		</ul>
+	</section>
+<div class="menu">
+	<ul>
+		<li><a href="home.html">Home</a></li>
+		<li><a href="event.html">Events</a></li>
+		<li><a href="menu1.html">Menu</a></li>
+		<li><a href="gallary.html">Gallery</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+</div>
+<script>
+	const menuToggle = document.querySelector('.slider')
+	const showcase = document.querySelector('.showcase')
+
+	menuToggle.addEventListener('click', function() {
+		menuToggle.classList.toggle('active')
+		showcase.classList.toggle('active')
+	})
+</script>
+
+</body>
+</html>

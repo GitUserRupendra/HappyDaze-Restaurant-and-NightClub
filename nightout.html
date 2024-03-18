@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/nightout.css">
+   <link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
+	<title>Buy Pass</title>
+</head>
+<body>
+
+ <header>
+     <nav>
+     <ul class="main-nav" id="check-class">
+       	 	<li><a href="Home.html">Home</a></li>
+       	 	<li><a href="event.html">Events</a></li>
+       	 	<li><a href="menu1.html">Menu</a></li>
+       	 	<li><a href="gallary.html">Gallery</a></li>
+       	 	<li><a href="about.html">About</a></li>
+       	 	<li><a href="contact.html">Contact Us</a></li>
+
+       	 </ul> 
+</nav>
+         </header>
+
+  <h1 class="logo">
+  <a href="index.html" style=" color: whitesmoke;">Happy Daze Ticket</a>
+  </h1>
+<!--  <h3 class="tagline"></h3>-->
+<section class="row">
+  <div class="grid">
+
+    <section class="col-2-3">
+      <h2  style=" letter-spacing: 3px; text-align:center;">Purchase a Night Out Ticket</h2>
+      
+        <p>Book your Happy Daze pass using the form below. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we&#8217;ll follow up and provide a receipt for your purchase. See you soon!</p>
+
+        <h4 style="font-style:italic; color:white;">Why Attend?</h4>
+
+        <ul class="why-attend">
+          <li>Low Price (Rs.450 per Pass)</li>
+        <li>World-Class Perfomers<a href="event.html" style="color: white;">(Explore Events)</a></li>
+          <li>Anyone dish free per person from our today special menu<a href="menu1.html" style="color:white;"> (Click to see)
+          </a></li>
+          <li>Chill Out,Drink ,DAnce on floor</li>
+          
+        </ul>
+    </section>
+
+    <form class="col-1-3" action="#" method="post">
+      <fieldset class="register-group">
+
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Full name" required>
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" placeholder="Email address" required>
+          </label>
+
+          <label>
+            Number of Passes
+            <select name="quantity" required>
+              <option value="1" selected>1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </label>
+
+          <label>
+            Comments
+            <textarea name="comments"></textarea>
+          </label>
+
+        </fieldset>
+
+        <input class="btn btn-default" type="submit" name="submit" value="Purchase">
+
+
+      
+    </form>
+
+  </div>
+</section>
+
+<footer class="primary-footer container group">
+  <small>&copy; Happy Daze</small>
+
+</footer>
+</body>
+</html>

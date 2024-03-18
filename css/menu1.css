@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+   font-family: 'Supermercado One', cursive;
+  background-image: url("../img/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ height: 100vh;
+}
+.wrapper{
+	width: 95%;
+	margin-bottom: 100px auto;
+	margin-top: 50px;
+	margin-left: 40px;
+
+	 
+
+}
+.title{
+	text-align: center;
+	margin-bottom: 60px;
+}
+	.title h4{
+     text-transform: capitalize;
+     font-size: 36px;
+     position: relative;
+     display: inline-block;
+     	padding-bottom: 10px;
+	}
+
+.title h4:before{
+	position: relative;
+	content: "";
+	width: 280px;
+	height: 2px;
+	background-color:whitesmoke;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+.menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.single-menu{
+	flex-basis: 580px;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid white;
+}
+.single-menu:nth-child(5), .single-menu:nth-child(6){
+	border-bottom: 0;
+}
+.single-menu{
+	position: relative;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+}
+.single-menu:hover img{
+	border-radius: 0;
+}
+.single-menu img{
+	max-width: 100%;
+	margin-right: 30px;
+	border-radius: 50%;
+	border-bottom: 1px solid black;
+	padding: 3px ;
+	transition: .5s;
+}
+.single-menu h4{
+	text-transform: capitalize;
+	font-size: 22px;
+	border-bottom: 1px dashed whitesmoke;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+.single-menu h4 span{
+	float: right;
+	color: red;
+	font-style: italic;
+}
+
+.main-nav{
+	display: inline-block;
+	list-style: none;
+	margin-top: 35px;
+	margin-left: 5px;
+	margin-right: 50px;
+
+}
+
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+   margin-left: 45px;
+	margin-right: 5px;
+}
+
+.main-nav li a{
+	padding: 10px 0;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 160%;
+	font-weight: 100;
+	display: flex;
+	font-family: 'Flamenco', cursive;
+}
+  .main-nav li a:hover{
+  border-bottom: 2px solid yellow; 
+}
+
+header ul li a.active
+{
+  border-bottom: 2px solid white; 
+}
+
+
+
+

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+;
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+font-family: 'Bebas Neue', cursive;	
+font-stretch: 
+
+}
+
+.main-nav{
+	position: relative;
+	margin-top: 40px;
+	right: 10px;
+
+}
+
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+  margin-left: 5px;
+	margin-right:48px;
+	}
+
+.main-nav li a{
+	padding: 10px 0;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 160%;
+	font-weight: 100;
+	display: flex;
+	font-family: 'Flamenco', cursive;
+}
+		.main-nav li a:hover{
+	border-bottom: 2px solid yellow; 
+}
+header ul li a.active
+{
+   border-bottom: 2px solid white;
+}
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+  background: #293f50;
+  color: #888;
+  
+}
+h1 {
+  font-size: 40px;
+  line-height: 44px;
+  color: #648880;
+}
+
+
+.container{
+  margin: 0 auto;
+  width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+.row,
+.row-alt{
+  min-width: 960px;
+}
+.row {
+  background: #fff;
+  padding: 66px 0 44px 0;
+}
+.row-alt {
+   
+   padding: 44px 0 22px 0;
+ }
+ img{
+height: 200px;
+width: 150px;
+margin-left:100px;
+margin-top: 20px;
+
+ 
+   
+    border: 1px solid blueviolet;
+
+ }
+ time{
+  font-size: 25px;
+
+ }
+table {
+  margin-bottom: 44px;
+  width: 100%;
+}
+table:last-child {
+  margin-bottom: 0;
+}
+
+th,
+td {
+  padding-bottom: 22px;
+  vertical-align: top;
+}
+th {
+  padding-right: 45px;
+  text-align: right;
+  width: 20%;
+}
+td {
+  width: 40%;
+}
+
+thead {
+  line-height: 44px;
+}
+thead th {
+  color: #648880;
+  font-size: 24px;
+}
+
+tbody th {
+  color: #a9b2b9;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 22px;
+  text-transform: uppercase;
+}
+
+tbody td {
+  border-top: 1px solid #dfe2e5;
+  padding-top: 21px;
+}
+tbody td:first-of-type {
+  padding-right: 15px;
+}
+tbody td:last-of-type {
+  padding-left: 15px;
+}
+tbody td:only-of-type {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+table a {
+  color: #888;
+}
+table h4 {
+  margin-bottom: 0;
+  font-size: 35px;
+  
+  
+}
+
+.schedule-offset {
+  color: #a9b2b9;
+  font-size: 35px;
+}
+
+.btn{
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: lighter;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+  margin-left: 200px;
+  
+   color: brown;
+   font-size: 35px;
+    border: 1px solid black;
+
+}
+
+
+.btn:hover{
+  background-color:black;
+}
+
+
+
+
+

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Kaushan+Script&family=Zen+Kurenaido&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body
+{
+ 
+ background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/nc.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+
+
+
+  font-family: Zen Kurenaido;
+}
+.main-nav{
+  position: relative;
+  margin-top: 40px;
+ 
+  width: fit-content;
+
+}
+
+.main-nav li{
+  display: inline-block;
+  list-style: none;
+   margin-left: 45px;
+  margin-right: 5px;
+}
+
+.main-nav li a{
+  padding: 10px 0;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 160%;
+  font-weight: 100;
+  display: flex;
+  font-family: 'Flamenco', cursive;
+}
+    .main-nav li a:hover{
+  border-bottom: 2px solid yellow; 
+}
+header ul li a.active
+{
+   border-bottom: 3px solid white;
+}
+
+.text{
+  margin: 0 auto;
+  position: relative;
+  margin-top: 40px;
+  float: left;
+  color: white;
+   width: 500px;
+   height: 10px;
+   font-size: 20px;
+    }
+.services{
+margin: 0 auto;
+width: 200px;
+color: white;
+margin-top: 40px;
+font-size: 20px;
+left: 20%;
+/*position: relative;*/
+}
+.t{
+  position: absolute;
+  height: 20px;
+  float: right;
+  color: white;
+ 
+  right:   20%;
+  top: 50%;
+  width: 200px;
+  font-size: 50px;
+
+
+}
+.about
+{
+position: relative;
+color: white;
+
+text-align: center;
+margin-top: 10px;
+font-size: 45px;
+
+}
+
+.middle{
+  position: absolute;
+  bottom: -5%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.btn{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: #f1f1f1;
+  margin: 10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #3498db;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
+.btn i{
+  line-height: 60px;
+  font-size: 26px;
+  transition: 0.2s linear;
+}
+.btn:hover i{
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #3498db;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+.btn:hover::before{
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+@keyframes aaa {
+  0%{
+    left: -110%;
+    top: 90%;
+  }50%{
+    left: 10%;
+    top: -30%;
+  }100%{
+    top: -10%;
+    left: -10%;
+  }
+}

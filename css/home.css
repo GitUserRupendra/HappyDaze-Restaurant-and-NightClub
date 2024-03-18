@@ -1,0 +1,136 @@
+@import url('https: //fonts.googleapis.com/css2?family=Flamenco&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 20px;
+	position: relative;
+	color: white;
+	font-family: 'Flamenco', cursive;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)), url('../img/background.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+	height: 100vh;
+	width: 1000px;
+
+
+
+}
+h5{
+	margin-top: 30px;
+	font-size: 40px;
+	text-align: center;
+}
+.main-nav{
+	position: relative;
+  
+	left: 40px;
+
+}
+
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+	right: 100px;
+    margin-top: 40px;
+	margin-right: 50px;
+}
+
+.main-nav li a{
+	padding: 5px 0;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 130%;
+	font-weight: 100;
+	display: flex;
+ }
+
+.main-nav li a:hover{
+	border-bottom: 2px solid yellow; 
+}
+
+header ul li a.active
+{
+   border-bottom: 2px solid white;
+}
+
+.main-content-header{
+    position: relative;
+	top: 40%;
+	left: 63%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+
+}
+p{
+	margin-top: 35px;
+	font-size: 38px;
+	word-spacing: 2px;
+	background-color: transparent;
+	font-weight: lighter;
+
+}
+
+h1{
+	color: #fff;
+	font-size: 240%;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-weight: lighter;
+
+}
+
+.btn{
+	display: inline-block;
+	padding: 10px 30px;
+	font-size: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+
+.btn-m{
+	background-color: transparent;
+	color: white;
+    margin-right: 15px;
+    border: 8px solid #fff;
+}
+
+.btn-m:hover{
+	background-color: darkblue;
+}
+
+.btn-n{
+    background-color: transparent;
+    color: white;
+    border: 8px solid #fff;
+}
+
+.btn-n:hover{
+	background-color:darkblue;
+}
+
+.colorchange{
+	animation: colorchangecafe 1.5s infinite;
+}
+
+
+@keyframes colorchangecafe{
+	0%{color: white;}
+    25%{color: purple;}
+    50%{color: darkgoldenrod;}
+    100%{color: red;}
+
+} 
+
+
+
